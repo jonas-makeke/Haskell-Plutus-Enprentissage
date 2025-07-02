@@ -1,1 +1,1 @@
-# Haskell-Plutus-Enprentissage
+# Haskell-Plutus-Apprentissage
