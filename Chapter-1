@@ -1,0 +1,13 @@
+-- Main module declaration
+module Main where
+
+-- Definition of the 'double' function
+double :: Num a => a -> a
+double x = x * 2
+
+-- Main function
+main :: IO ()
+main = do
+    let valeur = 5
+    let resultat = double valeur
+    putStrLn ("Le double de " ++ show valeur ++ " est " ++ show resultat)
